@@ -4,7 +4,6 @@ body {
     box-sizing: border-box;
     font-family: "Montserrat",sans-serif;
 }
-
 .container {
     background-color: #fff;
     box-shadow: 0 0 20px rgba(0,0,0,.2);
@@ -15,24 +14,19 @@ body {
     border-radius: 10px;
     padding: 20px;
 }
-
 form {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-
 }
-
 form input[type="text"]{
     padding: 10px;
     border: none;
     outline: none;
     font-size: 18px;
     width: 60%;
-
 }
-
 form input[type="submit"]{
     background-color: #007bff;
     color: #fff;
@@ -43,14 +37,12 @@ form input[type="submit"]{
     cursor: pointer;
     padding:10px 20px;
     transition: background-color .3s ease;
-
 }
 
 form input[type="submit"]:hover{
 
     background-color: #0062cc;
 }
-
 .icon img{
     width: 100px;
     height: 100px;
@@ -60,7 +52,6 @@ form input[type="submit"]:hover{
     background-repeat: no-repeat;
     background-position: center center;
 }
-
 .temperature{
     font-size: 48px;
     font-weight: bold;
@@ -69,16 +60,13 @@ form input[type="submit"]:hover{
 .decriprion {
     font-size: 24px;
     margin-bottom: 20px;
-
 }
-
 .details {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-
 .details > div {
     padding: 20px;
     background-color: #f1f1f1;
@@ -88,7 +76,6 @@ form input[type="submit"]:hover{
     text-align: center;
     min-height: 45px;
 }
-
 @media (max-width: 768px){
     form{
         flex-direction: column;
