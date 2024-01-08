@@ -54,6 +54,8 @@ form input[type="submit"]:hover{
 .icon img{
     width: 100px;
     height: 100px;
+    background-color: #007bff;
+    border-radius: 10px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
