@@ -1,11 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Weather App</h1>
+        <form action="">
+            <input type="text"  id="city-input" placeholder="Enter City">
+            <input type="submit" value="Get Weather">
+        </form>
+        <div id="weather-data">
+            <div class="icon">
+                <img src="http://openweathermap.org/img/wn/01.png" alt="Weather icon">
+            </div>
+            <div class="temperatur">22C</div>
+            <div class="description">Sunny</div>
+            <div class="details">
+                <div>Feels Like : 23C</div>
+                <div>huminity: 40%</div>
+                <div>Wind seped: 5 m/s</div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
